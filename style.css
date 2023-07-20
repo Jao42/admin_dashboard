@@ -121,6 +121,12 @@ nav {
 
 
 }
+.doguinho-peq2 {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+}
+
 
 .hi-message {
   font-weight: 600;
@@ -147,20 +153,24 @@ main .projects .cards {
 
 }
 
-.cards {
+.card{
   background-color: white;
+  border-radius: 10px;
 }
 
-main .projects .cards div{
+.projects .card{
   border-left: 7px solid #a21caf;
-  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 4fr 1fr;
+  padding: 10px;
+  
 }
 
 
 .projects {
   display: grid;
   grid-template-rows: 1fr 10fr;
-  gap: 5px;
+  gap: 10px;
 }
 
 main .titulo {
@@ -179,6 +189,73 @@ main .titulo {
 .right-main-section {
   display:grid;
   grid-template-rows: 2fr 10fr;
-  gap: 5px;
+  gap: 10px;
 
 }
+
+.trending .card{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  font-size: 15px;
+
+}
+
+.trending-user {
+  display: flex;
+  gap: 10px;
+  font-size: 15px;
+  align-items: center;
+}
+
+.trending-tag {
+  color: #6b7280;
+
+}
+
+.titulo {
+  font-weight: 600;
+
+
+}
+
+/* announcement */
+
+.announcement {
+  padding: 5px;
+}
+
+.announcement .titulo {
+  font-size: 12px;
+
+
+}
+
+.announcement p {
+  font-size: 10px;
+
+}
+
+.projects .card .content p {
+  font-size: 13px;
+
+}
+.projects .card .utils {
+  display: flex;
+  justify-content: flex-end;
+
+  align-items: center;
+  gap: 10px;
+  
+
+}
+.projects  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+
+

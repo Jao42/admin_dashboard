@@ -53,6 +53,20 @@ header {
 
 }
 
+
+.dashboard-title {
+  font-family: 'Space Mono', monospace;
+  font-size: 20px;
+  vertical-align: bottom;
+
+}
+
+.icon-title-dash {
+  display: inline-flex;
+  align-items: center;
+
+}
+
 nav a {
   text-decoration: none;
   color: inherit;
@@ -193,6 +207,11 @@ main .titulo {
 
 }
 
+.trending {
+
+
+}
+
 .trending .card{
   display:flex;
   flex-direction: column;
@@ -236,6 +255,7 @@ main .titulo {
   font-size: 10px;
 
 }
+
 
 .projects .card .content p {
   font-size: 13px;
